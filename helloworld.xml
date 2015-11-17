@@ -2,7 +2,6 @@
 <extension type="component"
            version="2.5.0"
            method="upgrade">
-
 	<name>Hello World!</name>
 	<!-- The following elements are optional and free of formatting constraints -->
 	<creationDate>November 2009</creationDate>
