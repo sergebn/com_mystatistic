@@ -43,5 +43,5 @@ Temporary Items
 .apdisk
 
 # Emacs temp files
-.php~
-.xml~
+*.php~
+*.xml~
