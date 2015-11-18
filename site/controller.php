@@ -8,6 +8,6 @@ jimport('joomla.application.component.controller');
 /**
  * Hello World Component Controller
  */
-class HelloWorldController extends JControllerLegacy
+class MyStatisticController extends JControllerLegacy
 {
 }

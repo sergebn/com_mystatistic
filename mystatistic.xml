@@ -37,7 +37,7 @@
 			in this section are copied from /site/ in the package -->
 	<files folder="site">
 		<filename>index.html</filename>
-		<filename>helloworld.php</filename>
+		<filename>mystatistic.php</filename>
 		<filename>controller.php</filename>
 		<folder>views</folder>
 		<folder>models</folder>
@@ -53,7 +53,7 @@
 		<files folder="admin">
 			<!-- Admin Main File Copy Section -->
 			<filename>index.html</filename>
-			<filename>helloworld.php</filename>
+			<filename>mystatistic.php</filename>
 			<!-- SQL files section -->
 			<folder>sql</folder>
 			<!-- tables files section -->

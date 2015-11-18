@@ -7,16 +7,16 @@ jimport('joomla.form.helper');
 JFormHelper::loadFieldClass('list');
 
 /**
- * HelloWorld Form Field class for the HelloWorld component
+ * Mystatistic Form Field class for the MyStatistic component
  */
-class JFormFieldHelloWorld extends JFormFieldList
+class JFormFieldMyStatistic extends JFormFieldList
 {
 	/**
 	 * The field type.
 	 *
 	 * @var         string
 	 */
-	protected $type = 'HelloWorld';
+	protected $type = 'MyStatistic';
 
 	/**
 	 * Method to get a list of options for a list input.
@@ -28,7 +28,7 @@ class JFormFieldHelloWorld extends JFormFieldList
 		$db    = JFactory::getDBO();
 		$query = $db->getQuery(true);
 		$query->select('id,greeting');
-		$query->from('#__helloworld');
+		$query->from('#__mystatistic');
 		$db->setQuery((string) $query);
 		$messages = $db->loadObjectList();
 		$options  = array();

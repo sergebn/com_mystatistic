@@ -8,7 +8,7 @@ jimport('joomla.database.table');
 /**
  * Hello Table class
  */
-class HelloWorldTableHelloWorld extends JTable
+class MyStatisticTableMyStatistic extends JTable
 {
 	/**
 	 * Constructor
@@ -17,6 +17,6 @@ class HelloWorldTableHelloWorld extends JTable
 	 */
 	function __construct(&$db)
 	{
-		parent::__construct('#__helloworld', 'id', $db);
+		parent::__construct('#__mystatistic', 'id', $db);
 	}
 }

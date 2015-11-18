@@ -6,9 +6,9 @@ defined('_JEXEC') or die('Restricted access');
 jimport('joomla.application.component.modelitem');
 
 /**
- * HelloWorld Model
+ * MyStatistic Model
  */
-class HelloWorldModelHelloWorld extends JModelItem
+class MyStatisticModelMyStatistic extends JModelItem
 {
 	/**
 	 * @var array messages
@@ -24,7 +24,7 @@ class HelloWorldModelHelloWorld extends JModelItem
 	 * @return      JTable  A database object
 	 * @since       2.5
 	 */
-	public function getTable($type = 'HelloWorld', $prefix = 'HelloWorldTable', $config = array())
+	public function getTable($type = 'MyStatistic', $prefix = 'MyStatisticTable', $config = array())
 	{
 		return JTable::getInstance($type, $prefix, $config);
 	}
@@ -47,7 +47,7 @@ class HelloWorldModelHelloWorld extends JModelItem
 			$jinput = JFactory::getApplication()->input;
 			$id     = $jinput->get('id', 1, 'INT');
 
-			// Get a TableHelloWorld instance
+			// Get a TableMyStatistic instance
 			$table = $this->getTable();
 
 			// Load the message

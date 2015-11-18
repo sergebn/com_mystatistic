@@ -6,9 +6,9 @@ defined('_JEXEC') or die('Restricted access');
 jimport('joomla.application.component.view');
 
 /**
- * HTML View class for the HelloWorld Component
+ * HTML View class for the MyStatistic Component
  */
-class HelloWorldViewHelloWorld extends JViewLegacy
+class MyStatisticViewMyStatistic extends JViewLegacy
 {
 	// Overwriting JView display method
 	function display($tpl = null)
