@@ -4,14 +4,14 @@
            method="upgrade">
 	<name>My Statistic!</name>
 	<!-- The following elements are optional and free of formatting constraints -->
-	<creationDate>November 2009</creationDate>
-	<author>John Doe</author>
-	<authorEmail>john.doe@example.org</authorEmail>
+	<creationDate>November 2015</creationDate>
+	<author>Serge B</author>
+	<authorEmail>sergebn@mail.ru</authorEmail>
 	<authorUrl>http://www.example.org</authorUrl>
 	<copyright>Copyright Info</copyright>
 	<license>License Info</license>
 	<!--  The version string is recorded in the components table -->
-	<version>0.0.6</version>
+	<version>0.0.7</version>
 	<!-- The description is optional and defaults to the name -->
 	<description>Description of the My Statistic component ...</description>
 
@@ -45,7 +45,7 @@
 
 	<administration>
 		<!-- Administration Menu Section -->
-		<menu>My Statistic!</menu>
+		<menu link='index.php?option=com_mystatistic'>My Statistic!</menu>
 		<!-- Administration Main File Copy Section -->
 		<!-- Note the folder attribute: This attribute describes the folder
 				to copy FROM in the package to install therefore files copied
@@ -54,12 +54,14 @@
 			<!-- Admin Main File Copy Section -->
 			<filename>index.html</filename>
 			<filename>mystatistic.php</filename>
+			<filename>controller.php</filename>
 			<!-- SQL files section -->
 			<folder>sql</folder>
 			<!-- tables files section -->
 			<folder>tables</folder>
 			<!-- models files section -->
 			<folder>models</folder>
+			<folder>views</folder>
 		</files>
 	</administration>
 
